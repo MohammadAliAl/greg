@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | NextGen Electra</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header (same as index.html) -->
+    <header class="bg-[#131921] text-white">
+      <div class="container mx-auto px-4 py-3 flex items-center">
+        <h1 class="text-white" style="color: white">NextGen Electra</h1>
+        <nav class="ml-auto">
+          <ul class="flex space-x-6">
+            <li>
+              <a href="/" class="hover:underline"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+            <li>
+              <a href="/about.html" class="hover:underline"
+                ><i class="fas fa-info-circle"></i> About</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h1 class="text-2xl font-bold mb-6">Contact Us</h1>
+
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            style="
+              max-width: 420px;
+              margin: 20px auto;
+              padding: 24px;
+              background: #fff;
+              border-radius: 14px;
+              box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+              font-family: Arial, sans-serif;
+            "
+          >
+            <input type="hidden" name="access_key" value="94418785-792d-4259-a174-6d4a5d787289" />
+            <input
+              type="hidden"
+              name="subject"
+              value="Contact Form Submission"
+            />
+            <input
+              type="hidden"
+              name="redirect"
+              value="https://web3forms.com/success"
+            />
+
+            <div style="margin-bottom: 16px">
+              <label
+                for="name"
+                style="
+                  display: block;
+                  margin-bottom: 6px;
+                  font-weight: bold;
+                  font-size: 14px;
+                "
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                style="
+                  width: 90%;
+                  padding: 12px;
+                  border: 1px solid #ccc;
+                  border-radius: 8px;
+                  font-size: 15px;
+                "
+              />
+            </div>
+
+            <div style="margin-bottom: 16px">
+              <label
+                for="email"
+                style="
+                  display: block;
+                  margin-bottom: 6px;
+                  font-weight: bold;
+                  font-size: 14px;
+                "
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                style="
+                  width: 90%;
+                  padding: 12px;
+                  border: 1px solid #ccc;
+                  border-radius: 8px;
+                  font-size: 15px;
+                "
+              />
+            </div>
+
+            <div style="margin-bottom: 16px">
+              <label
+                for="message"
+                style="
+                  display: block;
+                  margin-bottom: 6px;
+                  font-weight: bold;
+                  font-size: 14px;
+                "
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+                style="
+                  width: 90%;
+                  padding: 12px;
+                  border: 1px solid #ccc;
+                  border-radius: 8px;
+                  font-size: 15px;
+                  resize: vertical;
+                "
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              style="
+                width: 100%;
+                padding: 12px;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                background: #4f46e5;
+                color: white;
+                cursor: pointer;
+                transition: 0.2s;
+              "
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow ">
+          <h2 class="text-xl font-bold mb-4">Our Information</h2>
+          <div class="space-y-4">
+            <div>
+              <h3 class="font-medium">
+                <i class="fas fa-map-marker-alt mr-2"></i> Address
+              </h3>
+              <p class="text-gray-600 mt-1">
+                Karolbagh, New Delhi, 110005, India
+              </p>
+            </div>
+
+            <div>
+              <h3 class="font-medium">
+                <i class="fas fa-phone-alt mr-2"></i> Phone
+              </h3>
+              <p class="text-gray-600 mt-1">+91 8882373622</p>
+            </div>
+
+            <div>
+              <h3 class="font-medium">
+                <i class="fas fa-envelope mr-2"></i> Email
+              </h3>
+              <p class="text-gray-600 mt-1">byhardisk@gmail.com</p>
+            </div>
+
+            <div>
+              <h3 class="font-medium">
+                <i class="fas fa-clock mr-2"></i> Business Hours
+              </h3>
+              <p class="text-gray-600 mt-1">Tuesday - Sunday: 11AM - 8PM (Closed Mondays)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-[#232F3E] text-white py-8">
+      <div class="container mx-auto px-4">
+        <!-- Footer content same as index.html -->
+      </div>
+    </footer>
+  </body>
+</html>
