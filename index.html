@@ -19,49 +19,62 @@
       content="Z33vG6jgdG57kcNAeh8AyW0a6-R04f0fe_Uplne0u8c"
     />
     <style>
-          .glass-search {
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-      color: white;
-    }
-    
-    .glass-search::placeholder {
-      color: rgba(255, 255, 255, 0.7);
-    }
-    
-    .glass-search:focus {
-      outline: none;
-      background: rgba(255, 255, 255, 0.15);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-    }
+      .glass-search {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        color: white;
+      }
+
+      .glass-search::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .glass-search:focus {
+        outline: none;
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
     </style>
   </head>
   <body class="bg-gray-100 font-roboto">
     <!-- Header -->
-    <header class="text-white" style="background-color: black;">
-      <div class="container mx-auto px-1 py-1 flex items-center -mt-8" style="margin-top: -3vh;">
+    <header class="text-white" style="background-color: black">
+      <div
+        class="container mx-auto px-1 py-1 flex items-center -mt-8"
+        style="margin-top: -3vh"
+      >
         <h1 class="-mt-8 -pt-8" style="margin-top: 4vh">
           <img
             src="/assets/nxtgen-logo-removebg-preview.png"
             alt="NxtGen"
-            style="height: 30px; width: auto;"
+            style="height: 30px; width: auto"
           />
         </h1>
 
-      <div class="ml-10 flex-1">
-        <div class="flex">
-          <input
-            type="text"
-            class="w-full px-4 py-2 rounded-full w-80"
-            placeholder="Search..."
-            id="Search2"
-            style="border-radius: 10vh; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); color: white;"
-          />
+        <div class="ml-10 flex-1">
+          <div class="flex">
+            <input
+              type="text"
+              class="w-full px-4 py-2 rounded-full w-80"
+              placeholder="Search..."
+              id="Search2"
+              style="
+                border-radius: 10vh;
+                background: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+                  0 10px 10px -5px rgba(0, 0, 0, 0.04);
+                color: white;
+              "
+            />
+          </div>
         </div>
-      </div>
         <nav class="ml-10">
           <ul class="flex space-x-6" id="navbar">
             <li>
@@ -76,7 +89,7 @@
             </li>
             <li>
               <a href="/buy.html" class="hover:underline">
-                <i class="fas fa-credit-card"></i> Buy
+                <i class="fas fa-credit-card"></i> buy
               </a>
             </li>
           </ul>
@@ -181,5 +194,26 @@
     </footer>
 
     <script src="/js/script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const params = new URLSearchParams(window.location.search);
+        const searchValue = params.get("search");
+        if (!searchValue) return;
+
+        const interval = setInterval(() => {
+          const input = document.getElementById("Search2");
+          if (!input) return;
+
+          input.value = searchValue;
+          input.focus();
+          input.dispatchEvent(new Event("input", { bubbles: true }));
+          input.dispatchEvent(
+            new KeyboardEvent("keyup", { bubbles: true, key: "a" })
+          );
+
+          clearInterval(interval);
+        }, 50);
+      });
+    </script>
   </body>
 </html>
