@@ -103,7 +103,7 @@ function renderProducts(products) {
                 <h3 class="font-medium text-lg mb-1">${product.name}</h3>
                 <p class="text-gray-500 text-sm mb-2">${product.description}</p>
                 <div class="flex justify-between items-center">
-                    <span class="font-bold text-lg text-white">₹${product.price}</span>
+                    <span class="font-bold text-lg text-white" style="color: white;">₹${product.price}</span>
                     <button class="btn-primary add-to-cart" data-product='${JSON.stringify(product)}'>
                         Add to Cart
                     </button>
