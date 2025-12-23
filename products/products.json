@@ -3,128 +3,127 @@
     "name": "320GB Hard Disk ",
     "price": 1000,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lapalfa.com%2Fcdn%2Fshop%2Fproducts%2FWDBlue320GB320GBLaptopInternalHardDiskDriveWD3200LPVXwesterndigital320gbharddiskforlaptopwd320gblaptop_1_018effe2-2aaa-4538-84f2-1716f9944806.png%3Fv%3D1617430740&f=1&nofb=1&ipt=2b820ba1e4e44938729eb5ea6f6ca81eb36aec7e3738acc7e0d861cdc939ae59",
-    "description": "WD Blue 320 GB Laptop Internal Hard Disk Drive (WD3200LPCX/WD3200LPVX)."
+    "description": "WD Blue 320 GB Laptop Internal Hard Disk Drive (WD3200LPCX/WD3200LPVX).<br/> Category: Storage"
+
   },
   {
     "name": "500GB Hard Disk",
     "price": 1500,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F51-%2BKKUA7cL._AC_.jpg",
-    "description": "Seagate Barracuda ST500DM009 500 GB Hard Drive - SATA (SATA/600) - 3.5 Drive - Internal - 7200rpm - 32 MB Buffer-RoHS Compliance.",
-    "ZamazLink": "https://www.Zamaz.com/dp/B0B9XYZ123"
+    "description": "Seagate Barracuda ST500DM009 500 GB Hard Drive - SATA (SATA/600) - 3.5 Drive - Internal - 7200rpm - 32 MB Buffer-RoHS Compliance.<br/> Category: Storage"
   },
   {
     "name": "750GB Hard Disk",
     "price": 2000,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2Fpm0AAOSwdwVcENO8%2Fs-l1600.jpg",
-    "description": "Western Digital Blue 750GB Hardisk, 5400RPM,2.5 (WD7500BPVX) HDD"
+    "description": "Western Digital Blue 750GB Hardisk, 5400RPM,2.5 (WD7500BPVX) HDD. <br/>Category: Storage"
   },
   {
     "name": "1TB Hard Disk",
     "price": 3800,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2023%2F9%2F341326379%2FOW%2FRT%2FBQ%2F29742241%2Fgeonix-1tb-laptop-hard-drive-ssd-1000x1000.jpg&f=1&nofb=1&ipt=8499774e4da830af58122ae9db19e3059a6582fcb03dc9fa8fcdf2d7c0440b0e",
-    "description": "GEONIX 1TB Laptop Hard Drive, 5400 RPM, 1TB capacity, suitable for CCTV and Laptop use",
-    "ZamazLink": "https://www.Zamaz.com/dp/B08PQ2KWHS"
+    "description": "GEONIX 1TB Laptop Hard Drive, 5400 RPM, 1TB capacity, suitable for CCTV and Laptop use.<br/> Category: Storage"
   },
   {
     "name": "2 TB Hard Disk",
     "price": 5800,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhealthymachines.lk%2Fwp-content%2Fuploads%2F2020%2F05%2F906713899DFF356943C8404B9F586EE0.jpg&f=1&nofb=1&ipt=89fd2d06272e4268ae305eef06f84f1e99c8ea985ab463ffbd987c83102d9543",
-    "description": "ST2000VX008 2 TB SATA Silver Internal Hard Disk"
+    "description": "ST2000VX008 2 TB SATA Silver Internal Hard Disk. <br/>Category: Storage"
   },
   {
     "name": "3TB Hard Disk",
     "price": 7800,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2024%2F2%2F382710988%2FZM%2FMG%2FGD%2F123988371%2Fconsistent-hdd-3tb-1000x1000.jpg",
-    "description": "Consistent 3TB Desktop Surveillance Hard Disk Drive, For CCTV, SSHD"
+    "description": "Consistent 3TB Desktop Surveillance Hard Disk Drive, For CCTV, SSHD.<br/> Category: Storage"
   },
   {
     "name": "4TB Hard Disk",
     "price": 8500,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmegajaipur.com%2Fimage%2Fcache%2Fcatalog%2Fimages%2Fproducts%2Fdesktop%2Finternal-hard-drive%2Fdesktop%2FConsistent%2FCT3004SC%2Fconsistent-4tb-desktop-sata-pullout-internal-hard-disk%2520(3)-550x550.webp&f=1&nofb=1&ipt=dddb1ed6a3d2df6680e648028887a34613d12a6f2f18b929cb119a4751f129ba",
-    "description": "Consistent 4TB SATA Internal Hard Drive, 3.5 Inch, High Performance Desktop HDD"
+    "description": "Consistent 4TB SATA Internal Hard Drive, 3.5 Inch, High Performance Desktop HDD.<br/> Category: Storage"
   },
   {
     "name": "6TB Hard Disk",
     "price": 10000,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F5.imimg.com%2Fdata5%2FSELLER%2FDefault%2F2023%2F9%2F343909304%2FMU%2FHR%2FWX%2F64399789%2F6tb-consistent-sata-hard-drive-1000x1000.jpg",
-    "description": "6TB Consistent Sata Hard Drive, For Desktop, 3.5 inch"
+    "description": "6TB Consistent Sata Hard Drive, For Desktop, 3.5 inch. <br/>Category: Storage"
   },
   {
     "name": "10TB Hard Disk",
     "price": 17000,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmegajaipur.com%2Fimage%2Fcache%2Fcatalog%2Fimages%2Fproducts%2Fdesktop%2Finternal-hard-drive%2Fdesktop%2FConsistent%2FCT3010SC%2Fct3010sc-1000x1000.webp",
-    "description": "Consistent 10TB SATA Internal Hard Drive, 3.5 Inch, High Performance Desktop HDD"
+    "description": "Consistent 10TB SATA Internal Hard Drive, 3.5 Inch, High Performance Desktop HDD.<br/> Category: Storage"
   },
   {
     "name": "SanDisk Cruzer Blade 4GB",
     "price": 150,
     "image": "https://shop.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-blade-usb-2-0/gallery/cruzer-blade-usb-2-0-angle.png.wdthumb.1280.1280.webp",
-    "description": "SanDisk Cruzer Blade 4GB USB 2.0 Flash Drive, compact design for basic file storage."
+    "description": "SanDisk Cruzer Blade 4GB USB 2.0 Flash Drive, compact design for basic file storage.<br/> Category: Storage"
   },
   {
     "name": "SanDisk Cruzer Blade 8GB",
     "price": 200,
     "image": "https://shop.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-blade-usb-2-0/gallery/cruzer-blade-usb-2-0-angle.png.wdthumb.1280.1280.webp",
-    "description": "SanDisk Cruzer Blade 8GB USB 2.0 Flash Drive, lightweight and portable."
+    "description": "SanDisk Cruzer Blade 8GB USB 2.0 Flash Drive, lightweight and portable. <br/>Category: Storage"
   },
   {
     "name": "SanDisk Cruzer Blade 16GB",
     "price": 250,
     "image": "https://shop.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-blade-usb-2-0/gallery/cruzer-blade-usb-2-0-angle.png.wdthumb.1280.1280.webp",
-    "description": "SanDisk Cruzer Blade 16GB USB 2.0 Flash Drive, ideal for documents and media."
+    "description": "SanDisk Cruzer Blade 16GB USB 2.0 Flash Drive, ideal for documents and media. <br/>Category: Storage"
   },
   {
     "name": "SanDisk Cruzer Blade 32GB",
     "price": 300,
     "image": "https://shop.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-blade-usb-2-0/gallery/cruzer-blade-usb-2-0-angle.png.wdthumb.1280.1280.webp",
-    "description": "SanDisk Cruzer Blade 32GB USB 2.0 Flash Drive, reliable everyday storage."
+    "description": "SanDisk Cruzer Blade 32GB USB 2.0 Flash Drive, reliable everyday storage. <br/>Category: Storage"
   },
   {
     "name": "SanDisk Cruzer Blade 64GB",
     "price": 350,
     "image": "https://shop.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-blade-usb-2-0/gallery/cruzer-blade-usb-2-0-angle.png.wdthumb.1280.1280.webp",
-    "description": "SanDisk Cruzer Blade 64GB USB 2.0 Flash Drive for photos, videos, and backups."
+    "description": "SanDisk Cruzer Blade 64GB USB 2.0 Flash Drive for photos, videos, and backups. <br/>Category: Storage"
   },
   {
     "name": "SanDisk Cruzer Blade 128GB",
     "price": 430,
     "image": "https://shop.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-blade-usb-2-0/gallery/cruzer-blade-usb-2-0-angle.png.wdthumb.1280.1280.webp",
-    "description": "SanDisk Cruzer Blade 128GB USB 2.0 Flash Drive with high-capacity portable storage."
+    "description": "SanDisk Cruzer Blade 128GB USB 2.0 Flash Drive with high-capacity portable storage. <br/>Category: Storage"
   },
   {
     "name": "SanDisk Micro SD Card 4GB",
     "price": 150,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F61JSbfLd3dL._SL1500_.jpg",
-    "description": "SanDisk 4GB Memory Card suitable for basic storage needs in cameras and devices."
+    "description": "SanDisk 4GB Memory Card suitable for basic storage needs in cameras and devices.<br/> Category: Storage"
   },
   {
     "name": "SanDisk Micro SD Card 8GB",
     "price": 200,
     "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fn3.sdlcdn.com%2Fimgs%2Fa%2Fl%2Ft%2FSanDisk-microSDHC-Card-8GB-CLASS-1040078-1-f74a4.jpg",
-    "description": "SanDisk 8GB Memory Card for photos, documents, and light media storage."
+    "description": "SanDisk 8GB Memory Card for photos, documents, and light media storage. <br/>Category: Storage"
   },
   {
     "name": "SanDisk Micro SD Card 16GB",
     "price": 300,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc1.neweggimages.com%2FProductImage%2FA4UB_1306986134961209362hitfffVKb.jpg",
-    "description": "SanDisk 16GB Memory Card, reliable performance for cameras and smartphones."
+    "description": "SanDisk 16GB Memory Card, reliable performance for cameras and smartphones.<br/> Category: Storage"
   },
   {
     "name": "SanDisk Micro SD Card 32GB",
     "price": 350,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbrain-images-ssl.cdn.dixons.com%2F3%2F7%2F10171473%2Fu_10171473.jpg",
-    "description": "SanDisk 32GB Memory Card for HD photos and videos."
+    "description": "SanDisk 32GB Memory Card for HD photos and videos.<br/> Category: Storage"
   },
   {
     "name": "SanDisk Micro SD Card 64GB",
     "price": 400,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bhphotovideo.com%2Fimages%2Fimages2000x2000%2Fsandisk_sdsqunc_064g_an6ia_sandisk_1170203.jpg",
-    "description": "SanDisk 64GB Memory Card, suitable for full HD video recording."
+    "description": "SanDisk 64GB Memory Card, suitable for full HD video recording.<br/> Category: Storage"
   },
   {
     "name": "SanDisk Micro SD Card 128GB",
     "price": 550,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpisces.bbystatic.com%2Fimage2%2FBestBuy_US%2Fimages%2Fproducts%2F23418727-2250-40b8-bcf9-38f30cd4a7d5.jpg",
-    "description": "SanDisk 128GB Memory Card with high capacity for videos, photos, and backups."
+    "description": "SanDisk 128GB Memory Card with high capacity for videos, photos, and backups. <br/> Category: Storage"
   }
 ]

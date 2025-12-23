@@ -73,11 +73,35 @@
           margin-left: -20vw !important;
         }
       }
+            @media (max-width: 768px){
+        h1{
+          margin-top: -0.5vh !important;
+          margin: auto;
+        }
+      }
     </style>
   </head>
   <body class="bg-gray-100">
     <!-- Header (same as index.html) -->
-    <header class="bg-[#131921] text-white" style="background-color: black">
+        <header
+      class="text-white relative overflow-hidden"
+      style="
+        background: linear-gradient(
+          135deg,
+          rgba(0, 0, 0, 0.5) 0%,
+          rgba(30, 30, 30, 0.95) 100%
+        );
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      "
+    >
+      <!-- Glossy overlay -->
+      <div
+        class="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-transparent pointer-events-none"
+      ></div>
+      <div
+        class="absolute inset-0 bg-gradient-to-t from-transparent via-white/5 to-white/10 pointer-events-none"
+      ></div>
       <div class="container mx-auto px-4 py-3 flex items-center">
                 <h1 class="-mt-8 -pt-8" style="margin-top: 4vh">
           <img
@@ -105,7 +129,7 @@
 
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 bg-transparent">
         <!-- Order Summary -->
         <div class="bg-white p-6 rounded-lg shadow">
           <h2 class="text-xl font-bold mb-4">Order Summary</h2>
@@ -129,7 +153,7 @@
         </div>
 
         <!-- Payment Form -->
-        <div class="bg-white p-6 rounded-lg shadow">
+        <div class="bg-white p-6 rounded-lg shadow mt-10">
           <h2 class="text-xl font-bold mb-4">Payment Information</h2>
           <form
             id="checkout-form"
@@ -143,7 +167,7 @@
               value="66d638eb-c73e-4c36-b031-017287305791"
             />
             <input type="hidden" name="subject" value="New Order from NxtGen " />
-             <input type="hidden" name="redirect" value="https://buyhardisk.shop/payment">
+             <input type="hidden" name="redirect" value="https://nextgenelectra.netlify.app/payment">
             <input
               type="hidden"
               name="order_details"
@@ -254,7 +278,7 @@
     </main>
 
     <!-- Footer (same as index.html) -->
-    <footer class="bg-[#232F3E] text-white py-8">
+    <footer class="bg-black text-white py-8">
       <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>

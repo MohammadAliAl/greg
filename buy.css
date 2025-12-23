@@ -334,14 +334,6 @@ header {
   z-index: 1000;
 }
 
-/* Footer Link Enhancement */
-footer a {
-  transition: color 0.3s ease;
-}
-
-footer a:hover {
-  color: #ff9900;
-}
 
 /* Price Highlight Animation */
 @keyframes priceGlow {
@@ -805,21 +797,6 @@ footer .grid > div:hover {
   padding-left: 25px;
 }
 
-/* Footer Heading Underline */
-footer h3 {
-  position: relative;
-  padding-bottom: 10px;
-}
-
-footer h3::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 50px;
-  height: 2px;
-  background-color: #ff9900;
-}
 
 /* Empty Cart State */
 .empty-cart {
