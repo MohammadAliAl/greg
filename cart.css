@@ -181,6 +181,7 @@ footer .footer-links a:hover {
   #cart-items .cart-item {
     flex-direction: column;
     align-items: flex-start;
+    padding: 7vh 7vw;
   }
 
   #cart-items .cart-item img {

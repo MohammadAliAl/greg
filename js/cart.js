@@ -40,10 +40,10 @@ document.addEventListener("DOMContentLoaded", () => {
           item.description || "No description"
         }</p>
         <div class="flex items-center mt-2 text-white">
-          <span class="font-bold text-white" style="color: white;">₹${item.price}</span>
-          <div class="ml-auto flex items-center">
+          <span class="font-bold text-white" style="color: white; font-size: xx-large;">₹${item.price}</span>
+          <div class="ml-auto flex items-center" style="margin-top: 3vh;" >
             <button class="quantity-btn bg-gray-200 px-2 py-1 rounded" data-index="${index}" data-action="decrease">-</button>
-            <span class="mx-2 text-white" style="color: white;">${item.quantity || 1}</span>
+            <span class="mx-2 text-white" style="color: white; font-size: xx-large; margin: auto 2vw;">${item.quantity || 1}</span>
             <button class="quantity-btn bg-gray-200 px-2 py-1 rounded" data-index="${index}" data-action="increase">+</button>
             <button class="remove-btn ml-4 text-red-500 hover:text-red-700" data-index="${index}">
               <i class="fas fa-trash"></i>
