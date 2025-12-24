@@ -12,8 +12,7 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2{
   font-weight: 700;
   color: #111;
 }
@@ -77,17 +76,24 @@ h1 {
 }
 
 #cart-items .cart-item .remove-btn {
-  background-color: transparent;
+  background-color: white;
+  border-radius: 0.5rem;
   color: #ff6600;
-  border: none;
   cursor: pointer;
-  font-size: 14px;
-  transition: color 0.3s;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
 #cart-items .cart-item .remove-btn:hover {
-  color: #cc4400;
+  background-color: #ff6600;
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(255, 102, 0, 0.2);
 }
+
+
 
 /* Cart Summary */
 #cart-summary {

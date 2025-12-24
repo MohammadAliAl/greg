@@ -29,21 +29,21 @@ document.addEventListener("DOMContentLoaded", () => {
     const itemElement = document.createElement("div");
     itemElement.className = "cart-item flex items-start py-4";
     itemElement.innerHTML = `
-      <div class="flex-shrink-0 w-20 h-20 bg-gray-100 rounded-md overflow-hidden">
+      <div class="flex-shrink-0 w-20 h-20 bg-gray-100 rounded-md overflow-hidden bg-black">
         <img src="${item.image}" alt="${
       item.name
     }" class="w-full h-full object-contain">
       </div>
-      <div class="ml-4 flex-1">
+      <div class="ml-4 flex-1 w-24">
         <h3 class="font-medium">${item.name}</h3>
         <p class="text-gray-500 text-sm">${
           item.description || "No description"
         }</p>
-        <div class="flex items-center mt-2">
-          <span class="font-bold">₹${item.price}</span>
+        <div class="flex items-center mt-2 text-white">
+          <span class="font-bold text-white" style="color: white;">₹${item.price}</span>
           <div class="ml-auto flex items-center">
             <button class="quantity-btn bg-gray-200 px-2 py-1 rounded" data-index="${index}" data-action="decrease">-</button>
-            <span class="mx-2">${item.quantity || 1}</span>
+            <span class="mx-2 text-white" style="color: white;">${item.quantity || 1}</span>
             <button class="quantity-btn bg-gray-200 px-2 py-1 rounded" data-index="${index}" data-action="increase">+</button>
             <button class="remove-btn ml-4 text-red-500 hover:text-red-700" data-index="${index}">
               <i class="fas fa-trash"></i>
