@@ -1,10 +1,27 @@
 [
   {
+    "name": "boAt Airdopes 213",
+    "price": 500,
+    "image": "https://s6.imgcdn.dev/YUphND.jpg",
+    "description": "50 hours of playback, 10mm dynamic drivers, ENx Technology, BEAST Mode, ASAP Charging<br/> Category: audio, earbuds"
+  },
+    {
+    "name": "OnePlus Buds 4",
+    "price": 500,
+    "image": "https://s6.imgcdn.dev/YUpDXT.jpg",
+    "description": "55dB real-time Active Noise Cancellation, dual drivers and dual DACs, 3D sound, 45 hours playback<br/> Category: audio, earbuds"
+  },
+  {
+    "name": "OnePlus Nord Buds",
+    "price": 500,
+    "image": "https://s6.imgcdn.dev/YUop2t.jpg",
+    "description": "49 dB Hybrid Active Noise Cancellation, 12.4mm dynamic drivers, 44 hours playback<br/> Category: audio, earbuds"
+  },
+  {
     "name": "320GB Hard Disk ",
     "price": 1000,
     "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lapalfa.com%2Fcdn%2Fshop%2Fproducts%2FWDBlue320GB320GBLaptopInternalHardDiskDriveWD3200LPVXwesterndigital320gbharddiskforlaptopwd320gblaptop_1_018effe2-2aaa-4538-84f2-1716f9944806.png%3Fv%3D1617430740&f=1&nofb=1&ipt=2b820ba1e4e44938729eb5ea6f6ca81eb36aec7e3738acc7e0d861cdc939ae59",
     "description": "WD Blue 320 GB Laptop Internal Hard Disk Drive (WD3200LPCX/WD3200LPVX).<br/> Category: Storage"
-
   },
   {
     "name": "500GB Hard Disk",
