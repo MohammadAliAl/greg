@@ -51,13 +51,15 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
-  color: #444;
+  background: linear-gradient(135deg, #c0c0c0 0%, #e8e8e8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 label {
   font-size: 14px;
-  color: #333;
+  color: white;
   margin-bottom: 8px;
 }
 
@@ -148,28 +150,7 @@ button:hover {
 }
 
 /* Footer */
-footer {
-  background-color: #232f3e;
-  color: white;
-  padding: 40px 0;
-  text-align: center;
-}
 
-footer .footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-footer .footer-links a {
-  color: white;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-footer .footer-links a:hover {
-  text-decoration: underline;
-}
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -188,6 +169,7 @@ input[type="email"],
 textarea {
   transition: all 0.3s ease;
   background-color: #fafafa;
+  margin-left: 3px;
 }
 
 input[type="text"]:hover,
@@ -348,6 +330,13 @@ header {
 
 #order-total {
   animation: priceGlow 2s ease-in-out infinite;
+      background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
 }
 
 /* Mobile Navigation Enhancement */
@@ -416,7 +405,7 @@ button:focus-visible {
   overflow: hidden;
 }
 
-.bg-white::before {
+/* .bg-white::before {
   content: "";
   position: absolute;
   top: 0;
@@ -430,7 +419,7 @@ button:focus-visible {
     transparent
   );
   transition: left 0.5s ease;
-}
+} */
 
 .bg-white:hover::before {
   left: 100%;
@@ -438,7 +427,7 @@ button:focus-visible {
 
 /* Gradient Text Effects */
 h2 {
-  background: linear-gradient(135deg, #111 0%, #444 100%);
+  background: linear-gradient(135deg, #c0c0c0 0%, #e8e8e8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -492,12 +481,12 @@ form > div:focus-within::after {
 }
 
 /* Order Items Animation */
-#order-items > * {
+/* #order-items > * {
   animation: slideInFromLeft 0.5s ease forwards;
   opacity: 0;
-}
+} */
 
-#order-items > *:nth-child(1) {
+/* #order-items > *:nth-child(1) {
   animation-delay: 0.1s;
 }
 #order-items > *:nth-child(2) {
@@ -508,7 +497,7 @@ form > div:focus-within::after {
 }
 #order-items > *:nth-child(4) {
   animation-delay: 0.4s;
-}
+} */
 
 @keyframes slideInFromLeft {
   from {
@@ -584,11 +573,16 @@ input[type="email"] {
   transition: all 0.3s ease;
 }
 
-.flex.justify-between:hover {
+/* .flex.justify-between:hover {
   padding-left: 10px;
-  background-color: #fafafa;
-  border-radius: 5px;
-}
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+} */
 
 /* Shipping Badge */
 .flex.justify-between span:last-child {
@@ -654,6 +648,8 @@ input[type="radio"]:checked::before {
   border-radius: 8px;
   transition: all 0.3s ease;
   display: inline-block;
+  z-index: 1;
+  margin-left: -20vw;
 }
 
 input[type="radio"]:checked + label {
@@ -721,7 +717,7 @@ input[type="radio"]:checked + label {
 }
 
 /* Text Selection Styling */
-::selection {
+/* ::selection {
   background-color: #ff9900;
   color: white;
 }
@@ -729,7 +725,7 @@ input[type="radio"]:checked + label {
 ::-moz-selection {
   background-color: #ff9900;
   color: white;
-}
+} */
 
 /* Header Logo Animation */
 h1 {
@@ -745,7 +741,6 @@ h1::after {
   left: 0;
   width: 0;
   height: 3px;
-  background: linear-gradient(90deg, #ff9900, #ff6600);
   transition: width 0.4s ease;
 }
 
@@ -754,12 +749,12 @@ h1:hover::after {
 }
 
 /* Navigation Link Effects */
-nav ul li a {
+/* nav ul li a {
   position: relative;
   padding: 5px 0;
-}
+} */
 
-nav ul li a::before {
+/* nav ul li a::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -769,24 +764,24 @@ nav ul li a::before {
   background-color: #ff9900;
   transition: all 0.3s ease;
   transform: translateX(-50%);
-}
+} */
 
 nav ul li a:hover::before {
   width: 100%;
 }
 
 /* Icon Animations */
-nav ul li a i {
+/* nav ul li a i {
   transition: transform 0.3s ease;
   display: inline-block;
 }
 
 nav ul li a:hover i {
   transform: scale(1.2);
-}
+} */
 
 /* Footer Grid Enhancement */
-footer .grid > div {
+/* footer .grid > div {
   padding: 20px;
   border-left: 3px solid transparent;
   transition: all 0.3s ease;
@@ -795,7 +790,7 @@ footer .grid > div {
 footer .grid > div:hover {
   border-left-color: #ff9900;
   padding-left: 25px;
-}
+} */
 
 
 /* Empty Cart State */

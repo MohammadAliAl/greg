@@ -76,7 +76,7 @@ h1 {
 }
 
 #cart-items .cart-item .remove-btn {
-  background-color: white;
+  background-color: #ff6600;
   border-radius: 0.5rem;
   color: #ff6600;
   cursor: pointer;
@@ -87,7 +87,7 @@ h1 {
 }
 
 #cart-items .cart-item .remove-btn:hover {
-  background-color: #ff6600;
+  background-color: #ff66005d;
   color: white;
   transform: translateY(-1px);
   box-shadow: 0 2px 8px rgba(255, 102, 0, 0.2);
@@ -153,28 +153,7 @@ h1 {
 }
 
 /* Footer */
-footer {
-  background-color: #232f3e;
-  color: white;
-  padding: 40px 0;
-  text-align: center;
-}
 
-footer .footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-footer .footer-links a {
-  color: white;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-footer .footer-links a:hover {
-  text-decoration: underline;
-}
 
 /* Responsive */
 @media (max-width: 768px) {

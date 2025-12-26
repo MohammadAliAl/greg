@@ -34,11 +34,11 @@ document.addEventListener("DOMContentLoaded", () => {
       item.name
     }" class="w-full h-full object-contain">
       </div>
-      <div class="ml-4 flex-1 w-24">
+      <div class="ml-4 flex-1 w-24" id="cart-item">
         <h3 class="font-medium">${item.name}</h3>
-        <p class="text-gray-500 text-sm">${
+                <!-- <p class="text-gray-500 text-sm">${
           item.description || "No description"
-        }</p>
+        }</p> -->
         <div class="flex items-center mt-2 text-white">
           <span class="font-bold text-white" style="color: white; font-size: xx-large;">₹${item.price}</span>
           <div class="ml-auto flex items-center" style="margin-top: 3vh;" >

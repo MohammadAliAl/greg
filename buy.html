@@ -73,17 +73,22 @@
           margin-left: -20vw !important;
         }
       }
-            @media (max-width: 768px){
-        h1{
+      @media (max-width: 768px) {
+        h1 {
           margin-top: -0.5vh !important;
           margin: auto;
+        }
+      }
+      @media (min-width: 768px) {
+        header .container {
+          height: 5vh;
         }
       }
     </style>
   </head>
   <body class="bg-gray-100">
     <!-- Header (same as index.html) -->
-        <header
+    <header
       class="text-white relative overflow-hidden"
       style="
         background: linear-gradient(
@@ -103,7 +108,7 @@
         class="absolute inset-0 bg-gradient-to-t from-transparent via-white/5 to-white/10 pointer-events-none"
       ></div>
       <div class="container mx-auto px-4 py-3 flex items-center">
-                <h1 class="-mt-8 -pt-8" style="margin-top: 4vh">
+        <h1 class="-mt-8 -pt-8" style="margin-top: 4vh">
           <img
             src="/assets/nxtgen-logo-removebg-preview.png"
             alt="NxtGen"
@@ -129,15 +134,38 @@
 
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 bg-transparent">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 bg-none">
         <!-- Order Summary -->
-        <div class="bg-white p-6 rounded-lg shadow">
+        <div
+          class="bg-white p-6 rounded-lg shadow"
+          style="
+            background: linear-gradient(
+              135deg,
+              rgba(30, 30, 30, 0.95) 0%,
+              rgba(15, 15, 15, 0.98) 100%
+            );
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            padding: 20px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
+              inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.6s ease-out forwards;
+          "
+        >
           <h2 class="text-xl font-bold mb-4">Order Summary</h2>
           <div id="order-items" class="mb-6">
             <!-- Items will be loaded from cart -->
           </div>
           <div class="border-t border-gray-200 pt-4">
-            <div class="flex justify-between mb-2" style="display: none;">
+            <div class="flex justify-between mb-2" style="display: none">
               <span>Subtotal:</span>
               <span id="order-subtotal">₹0</span>
             </div>
@@ -153,7 +181,32 @@
         </div>
 
         <!-- Payment Form -->
-        <div class="bg-white p-6 rounded-lg shadow mt-10">
+        <div
+          class="bg-white p-6 rounded-lg shadow mt-10"
+          id="payment-form"
+          style="
+            background: linear-gradient(
+              135deg,
+              rgba(30, 30, 30, 0.95) 0%,
+              rgba(15, 15, 15, 0.98) 100%
+            );
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            padding: 20px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
+              inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.6s ease-out forwards;
+            align-items: center;
+          "
+        >
           <h2 class="text-xl font-bold mb-4">Payment Information</h2>
           <form
             id="checkout-form"
@@ -166,8 +219,16 @@
               name="access_key"
               value="66d638eb-c73e-4c36-b031-017287305791"
             />
-            <input type="hidden" name="subject" value="New Order from NxtGen " />
-             <input type="hidden" name="redirect" value="https://nextgenelectra.netlify.app/payment">
+            <input
+              type="hidden"
+              name="subject"
+              value="New Order from NxtGen "
+            />
+            <input
+              type="hidden"
+              name="redirect"
+              value="https://nextgenelectra.netlify.app/payment"
+            />
             <input
               type="hidden"
               name="order_details"
@@ -243,12 +304,7 @@
                     value="upi"
                     checked
                   />
-                  <label
-                    for="upi-payment"
-                    id="upi-label"
-                    style="margin-left: 10px"
-                    >UPI Payment</label
-                  >
+                  <label for="upi-payment" id="upi-label">UPI Payment</label>
                 </div>
               </div>
             </div>

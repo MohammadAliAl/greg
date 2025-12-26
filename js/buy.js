@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const itemElement = document.createElement("div");
     itemElement.className = "flex justify-between py-2 border-b border-gray-100";
     itemElement.innerHTML = `
-      <div>
+      <div style="color: white;">
         <h4 class="font-medium">
           <i class="fas fa-shopping-bag"></i> ${item.name}
         </h4>
@@ -41,7 +41,13 @@ document.addEventListener("DOMContentLoaded", () => {
           <i class="fas fa-box"></i> Qty: ${quantity}
         </p>
       </div>
-      <span><i class="fas fa-coins"></i> ₹${itemTotal.toFixed(2)}</span>
+      <span style="background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;"><i class="fas fa-coins"></i> ₹${itemTotal.toFixed(2)}</span>
     `;
     orderItemsContainer.appendChild(itemElement);
   });

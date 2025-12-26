@@ -19,6 +19,9 @@
       content="Z33vG6jgdG57kcNAeh8AyW0a6-R04f0fe_Uplne0u8c"
     />
     <style>
+      header {
+        margin-bottom: -10vh;
+      }
       .glass-search {
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(10px);
@@ -52,6 +55,12 @@
       button:hover .shimmer {
         left: 100%;
       }
+      @media (min-width: 768px) {
+        header .container {
+          margin-bottom: -2vh;
+        }
+      }
+      
     </style>
   </head>
   <body class="bg-gray-100 font-roboto">
@@ -160,30 +169,9 @@
     <main class="container mx-auto px-4 py-8">
       <div id="notification-container" style="margin-top: 5vh"></div>
       <section class="mb-10">
-        <div class="">
-          <h2
-            style="
-              font-size: 2rem;
-              font-weight: 800;
-              margin-bottom: 1.5rem;
-              color: black;
-              text-transform: uppercase;
-              letter-spacing: 0.1em;
-              text-align: center;
-              background: linear-gradient(to right, #3b82f6, #9333ea);
-              -webkit-background-clip: text;
-              color: transparent;
-              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-              padding: 1rem;
-              border-radius: 0.5rem;
-              border-bottom: 4px solid #3b82f6;
-              transition: transform 0.3s ease;
-            "
-            id="featured"
-          >
-            Featured Products
-          </h2>
-          <a href="cart.html">
+        <div id="main-inside">
+          <h2 id="featured">Featured Products</h2>
+          <a href="cart.html" id="cart-button-index">
             <button
               style="
                 font-size: 1rem;
@@ -210,10 +198,6 @@
                 position: relative;
                 overflow: hidden;
               "
-              onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.15)'; this.style.color='#ffffff';"
-              onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1)'; this.style.color='#e5e5e5';"
-              onmousedown="this.style.transform='translateY(0) scale(0.98)'; this.style.boxShadow='0 2px 8px rgba(0, 0, 0, 0.3)';"
-              onmouseup="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.5)';"
             >
               <span style="position: relative; z-index: 1">Cart</span>
               <span
