@@ -24,7 +24,10 @@ body {
 h1,
 h2 {
   font-weight: 700;
-  color: black;
+  background: linear-gradient(135deg, #c0c0c0 0%, #e8e8e8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* Header */
@@ -101,6 +104,25 @@ main {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.95) 0%,
+    rgba(15, 15, 15, 0.98) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.6s ease-out forwards;
 }
 
 h2 {
@@ -181,7 +203,16 @@ footer ul {
 }
 
 #Search2:hover {
-  background: white;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.22) 0%,
+    rgba(255, 255, 255, 0.12) 100%
+  );
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4),
+    inset 0 1px 2px rgba(255, 255, 255, 0.35),
+    0 24px 30px -8px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
 }
 
 footer ul li {
@@ -235,7 +266,25 @@ footer .mt-8 p {
 /* Cart Page */
 #cart-items .text-center {
   padding: 40px;
-  background-color: #fff;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 30, 30, 0.95) 0%,
+    rgba(15, 15, 15, 0.98) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.6s ease-out forwards;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -245,17 +294,82 @@ footer .mt-8 p {
   color: #a0a0a0;
   width: 100%;
   margin: 7vh auto;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  position: relative;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+#cart-items p::before,
+#cart-items p::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #a0a0a0, transparent);
+  opacity: 0.3;
+}
+
+#cart-items p::before {
+  left: calc(50% - 120px);
+}
+
+#cart-items p::after {
+  right: calc(50% - 120px);
+}
+
+#cart-items p:hover {
+  opacity: 1;
 }
 
 #cart-items a {
-  color: #0066c0;
-  font-weight: bold;
-  text-decoration: none;
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  font-weight: 700;
   margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#cart-items a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  transition: width 0.3s ease;
+}
+
+#cart-items a:hover::before {
+  width: 100%;
+}
+
+#cart-items a:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.2);
+}
+
+#cart-items a:active {
+  transform: translateY(0);
 }
 
 #cart-summary {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 #cart-summary .flex {
@@ -483,12 +597,12 @@ header nav a:hover {
 }
 
 /* Search Box Hover and Focus Effects */
-header input[type="text"]:focus {
+/* header input[type="text"]:focus {
   outline: none;
   border-color: #febd69;
   background: white;
   box-shadow: 0 0 5px rgba(254, 189, 105, 0.7);
-}
+} */
 
 /* Featured Product Section */
 #products-container {
@@ -899,12 +1013,17 @@ header .container .flex a {
   text-transform: uppercase;
   text-decoration: none;
   transition: color 0.3s ease;
-  padding-left: 3vw;
 }
 
-header .container .flex a:hover {
-  color: #febd69;
+@media (max-width: 768px) {
+  header .container .flex a {
+    padding-left: 3vw;
+  }
 }
+
+/* header .container .flex a:hover {
+  color: #febd69;
+} */
 
 /* Search Bar */
 header .container .ml-10 .flex {
@@ -1406,7 +1525,6 @@ header .container .ml-10 {
 }
 #navbar {
   transition: all 0.3s ease-in-out;
-  width: 80vw;
 }
 
 #navbarToggle {
@@ -1567,6 +1685,24 @@ html {
 /* Enhanced Search Bar */
 header input[type="text"] {
   transition: all 0.3s ease;
+  border-radius: 24px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35),
+    inset 0 1px 2px rgba(255, 255, 255, 0.3),
+    0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.08);
+  color: rgba(255, 255, 255, 0.95);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
 }
 
 header input[type="text"]::placeholder {
@@ -2809,7 +2945,7 @@ footer p {
 @media (max-width: 768px) {
   footer {
     padding: 2rem 1rem !important;
-    margin-top: 4vh;
+    /* margin-top: 4vh; */
   }
 
   footer .grid {
@@ -2838,7 +2974,7 @@ footer p {
 
 @media (max-width: 480px) {
   footer {
-    padding: 1.5rem 0.75rem !important;
+    padding: 1.5rem -0.75rem !important;
   }
 
   footer .container {
@@ -2885,4 +3021,18 @@ footer p {
   footer {
     padding: 4rem 2rem !important;
   }
+}
+@media (max-width: 768px) {
+  #main-inside h2 {
+    font-size: x-large;
+  }
+  #naam {
+    margin-top: 4vh;
+  }
+  #naam h3{
+    font-size: large;
+  }
+}
+.cart-item.no-animation {
+  animation: none !important;
 }
