@@ -1,152 +1,182 @@
 [
   {
     "name": "boAt Airdopes 213",
-    "price": 500,
+    "price": 499,
     "image": "https://s6.imgcdn.dev/YUphND.jpg",
-    "description": "50 hours of playback, 10mm dynamic drivers, ENx Technology, BEAST Mode, ASAP Charging<br/> Category: audio, earbuds"
+    "description": "50 hours of playback, 10mm dynamic drivers, ENx Technology, BEAST Mode, ASAP Charging<br/><i style=\"display:none; width:0; height:0;\"> Category: audio, earbuds</i>"
   },
-    {
+  {
     "name": "OnePlus Buds 4",
-    "price": 500,
+    "price": 499,
     "image": "https://s6.imgcdn.dev/YUpDXT.jpg",
-    "description": "55dB real-time Active Noise Cancellation, dual drivers and dual DACs, 3D sound, 45 hours playback<br/> Category: audio, earbuds"
+    "description": "55dB real-time Active Noise Cancellation, dual drivers and dual DACs, 3D sound, 45 hours playback<br/><i style=\"display:none; width:0; height:0;\"> Category: audio, earbuds</i>"
   },
   {
     "name": "OnePlus Nord Buds",
-    "price": 500,
+    "price": 499,
     "image": "https://s6.imgcdn.dev/YUop2t.jpg",
-    "description": "49 dB Hybrid Active Noise Cancellation, 12.4mm drivers, 44 hours playback<br/> Category: audio, earbuds"
+    "description": "49 dB Hybrid Active Noise Cancellation, 12.4mm drivers, 44 hours playback<br/><i style=\"display:none; width:0; height:0;\"> Category: audio, earbuds</i>"
   },
   {
     "name": "320GB Hard Disk ",
-    "price": 1000,
+    "price": 999,
     "image": "https://s6.imgcdn.dev/Ylkcqq.png",
-    "description": "WD Blue 320 GB Laptop Internal Hard Disk Drive (WD3200LPCX/WD3200LPVX).<br/> Category: Storage"
+    "description": "WD Blue 320 GB Laptop Internal Hard Disk Drive (WD3200LPCX/WD3200LPVX).<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "500GB Hard Disk",
-    "price": 1500,
+    "price": 1499,
     "image": "https://s6.imgcdn.dev/YlkMvN.jpg",
-    "description": "Seagate Barracuda ST500DM009 500 GB Hard Drive - SATA (SATA/600) - 3.5 Drive - Internal.<br/> Category: Storage"
+    "description": "Seagate Barracuda ST500DM009 500 GB Hard Drive - SATA (SATA/600) - 3.5 Drive - Internal.<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "750GB Hard Disk",
-    "price": 2000,
+    "price": 1999,
     "image": "https://s6.imgcdn.dev/YlkC0u.png",
-    "description": "Western Digital Blue 750GB Hardisk, 5400RPM,2.5 (WD7500BPVX) HDD. <br/>Category: Storage"
+    "description": "Western Digital Blue 750GB Hardisk, 5400RPM,2.5 (WD7500BPVX) HDD. <br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "1TB Hard Disk",
-    "price": 3800,
+    "price": 3799,
     "image": "https://s6.imgcdn.dev/YlkQja.png",
-    "description": "GEONIX 1TB Laptop Hard Drive, 5400 RPM, 1TB capacity, suitable for CCTV and Laptop use.<br/> Category: Storage"
+    "description": "GEONIX 1TB Laptop Hard Drive, 5400 RPM, 1TB capacity, suitable for CCTV and Laptop use.<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "2 TB Hard Disk",
-    "price": 5800,
+    "price": 5799,
     "image": "https://s6.imgcdn.dev/Ylkk9t.png",
-    "description": "ST2000VX008 2 TB SATA Silver Internal Hard Disk. <br/>Category: Storage"
+    "description": "ST2000VX008 2 TB SATA Silver Internal Hard Disk. <br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "3TB Hard Disk",
-    "price": 7800,
+    "price": 7799,
     "image": "https://s6.imgcdn.dev/YlkynD.png",
-    "description": "Consistent 3TB Desktop Surveillance Hard Disk Drive, For CCTV, SSHD.<br/> Category: Storage"
+    "description": "Consistent 3TB Desktop Surveillance Hard Disk Drive, For CCTV, SSHD.<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "4TB Hard Disk",
-    "price": 8500,
+    "price": 8499,
     "image": "https://s6.imgcdn.dev/Ylk5v9.png",
-    "description": "Consistent 4TB SATA Internal Hard Drive, 3.5 Inch, High Performance Desktop HDD.<br/> Category: Storage"
+    "description": "Consistent 4TB SATA Internal Hard Drive, 3.5 Inch, High Performance Desktop HDD.<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "6TB Hard Disk",
     "price": 10000,
     "image": "https://s6.imgcdn.dev/YlkKFy.png",
-    "description": "6TB Consistent Sata Hard Drive, For Desktop, 3.5 inch. <br/>Category: Storage"
+    "description": "6TB Consistent Sata Hard Drive, For Desktop, 3.5 inch. <br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "10TB Hard Disk",
-    "price": 17000,
+    "price": 16999,
     "image": "https://s6.imgcdn.dev/YlkT48.png",
-    "description": "Consistent 10TB SATA Internal Hard Drive, 3.5 Inch, High Performance Desktop HDD.<br/> Category: Storage"
+    "description": "Consistent 10TB SATA Internal Hard Drive, 3.5 Inch, High Performance Desktop HDD.<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "SanDisk Cruzer Blade 4GB",
-    "price": 150,
+    "price": 249,
     "image": "https://s6.imgcdn.dev/YlkU02.png",
-    "description": "SanDisk Cruzer Blade 4GB USB 2.0 Flash Drive, compact design for basic file storage.<br/> Category: Storage"
+    "description": "SanDisk Cruzer Blade 4GB USB 2.0 Flash Drive, compact design for basic file storage.<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "SanDisk Cruzer Blade 8GB",
-    "price": 200,
+    "price": 299,
     "image": "https://s6.imgcdn.dev/YlkU02.png",
-    "description": "SanDisk Cruzer Blade 8GB USB 2.0 Flash Drive, lightweight and portable. <br/>Category: Storage"
+    "description": "SanDisk Cruzer Blade 8GB USB 2.0 Flash Drive, lightweight and portable. <br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "SanDisk Cruzer Blade 16GB",
-    "price": 250,
+    "price": 399,
     "image": "https://s6.imgcdn.dev/YlkU02.png",
-    "description": "SanDisk Cruzer Blade 16GB USB 2.0 Flash Drive, ideal for documents and media. <br/>Category: Storage"
+    "description": "SanDisk Cruzer Blade 16GB USB 2.0 Flash Drive, ideal for documents and media. <br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "SanDisk Cruzer Blade 32GB",
-    "price": 300,
+    "price": 449,
     "image": "https://s6.imgcdn.dev/YlkU02.png",
-    "description": "SanDisk Cruzer Blade 32GB USB 2.0 Flash Drive, reliable everyday storage. <br/>Category: Storage"
+    "description": "SanDisk Cruzer Blade 32GB USB 2.0 Flash Drive, reliable everyday storage. <br/><i style=\"display:none; width:0; height:0;\">Category: Storage</i>"
   },
   {
     "name": "SanDisk Cruzer Blade 64GB",
-    "price": 350,
+    "price": 499,
     "image": "https://s6.imgcdn.dev/YlkU02.png",
-    "description": "SanDisk Cruzer Blade 64GB USB 2.0 Flash Drive for photos, videos, and backups. <br/>Category: Storage"
+    "description": "SanDisk Cruzer Blade 64GB USB 2.0 Flash Drive for photos, videos, and backups.<br/><i style=\"display:none; width:0; height:0;\">Category: Storage</i>"
   },
   {
     "name": "SanDisk Cruzer Blade 128GB",
-    "price": 430,
+    "price": 599,
     "image": "https://s6.imgcdn.dev/YlkU02.png",
-    "description": "SanDisk Cruzer Blade 128GB USB 2.0 Flash Drive with high-capacity portable storage. <br/>Category: Storage"
+    "description": "SanDisk Cruzer Blade 128GB USB 2.0 Flash Drive with high-capacity portable storage. <br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "SanDisk Micro SD Card 4GB",
-    "price": 150,
+    "price": 249,
     "image": "https://s6.imgcdn.dev/YlkA3V.png",
-    "description": "SanDisk 4GB Memory Card suitable for basic storage needs in cameras and devices.<br/> Category: Storage"
+    "description": "SanDisk 4GB Memory Card suitable for basic storage needs in cameras and devices.<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "SanDisk Micro SD Card 8GB",
-    "price": 200,
+    "price": 299,
     "image": "https://s6.imgcdn.dev/YlkVon.png",
-    "description": "SanDisk 8GB Memory Card for photos, documents, and light media storage. <br/>Category: Storage"
+    "description": "SanDisk 8GB Memory Card for photos, documents, and light media storage. <br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "SanDisk Micro SD Card 16GB",
-    "price": 300,
+    "price": 399,
     "image": "https://s6.imgcdn.dev/Yln6VS.png",
-    "description": "SanDisk 16GB Memory Card, reliable performance for cameras and smartphones.<br/> Category: Storage"
+    "description": "SanDisk 16GB Memory Card, reliable performance for cameras and smartphones.<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "SanDisk Micro SD Card 32GB",
-    "price": 350,
+    "price": 449,
     "image": "https://s6.imgcdn.dev/Ylnuse.png",
-    "description": "SanDisk 32GB Memory Card for HD photos and videos.<br/> Category: Storage"
+    "description": "SanDisk 32GB Memory Card for HD photos and videos.<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "SanDisk Micro SD Card 64GB",
-    "price": 400,
+    "price": 599,
     "image": "https://s6.imgcdn.dev/Yln420.png",
-    "description": "SanDisk 64GB Memory Card, suitable for full HD video recording.<br/> Category: Storage"
+    "description": "SanDisk 64GB Memory Card, suitable for full HD video recording.<br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "SanDisk Micro SD Card 128GB",
     "price": 550,
     "image": "https://s6.imgcdn.dev/Ylkh9n.jpg",
-    "description": "SanDisk 128GB Memory Card with high capacity for videos, photos, and backups. <br/> Category: Storage"
+    "description": "SanDisk 128GB Memory Card with high capacity for videos, photos, and backups. <br/><i style=\"display:none; width:0; height:0;\"> Category: Storage</i>"
   },
   {
     "name": "wireless Bluetooth headset",
     "price": 550,
     "image": "https://s6.imgcdn.dev/YliodK.png",
-    "description": "Bluetooth 5.3 technology, soft foams, deep bass and immersive sound quality, and built-in microphone <br/> Category: audio, headphones"
+    "description": "Bluetooth 5.3 technology, soft foams, deep bass and immersive sound quality, and built-in microphone <br/><i style=\"display:none; width:0; height:0;\"> Category: audio, headphones</i>"
+  },
+  {
+    "name": "Y17 SUPER LONG SELFIE STICK",
+    "price": 550,
+    "image": "https://s6.imgcdn.dev/Yl15xV.jpg",
+    "description": "Versatile Design, photos, and backups, Extra-Long Extension, Bluetooth Remote Control <br/><i style=\"display:none; width:0; height:0;\"> Category: Photography</i>"
+  },
+  {
+    "name": "SELFIE STICK R1-L",
+    "price": 550,
+    "image": "https://s6.imgcdn.dev/Yl1U7O.jpg",
+    "description": "Bluetooth 5.3 technology, soft foams, deep bass and immersive sound quality, and built-in microphone <br/><i style=\"display:none; width:0; height:0;\"> Category: audio, headphones</i>"
+  },
+  {
+    "name": "SELFIE STICK R1-L",
+    "price": 550,
+    "image": "https://s6.imgcdn.dev/Yl1awg.jpg",
+    "description": "Bluetooth 5.3 technology, soft foams, deep bass and immersive sound quality, and built-in microphone <br/><i style=\"display:none; width:0; height:0;\"> Category: audio, headphones</i>"
+  },
+  {
+    "name": "SELFIE STICK R1-L",
+    "price": 550,
+    "image": "https://s6.imgcdn.dev/Yl17oq.jpg",
+    "description": "Bluetooth 5.3 technology, soft foams, deep bass and immersive sound quality, and built-in microphone <br/><i style=\"display:none; width:0; height:0;\"> Category: audio, headphones</i>"
+  },
+  {
+    "name": "boAt Airdopes 444",
+    "price": 550,
+    "image": "https://s6.imgcdn.dev/Yl1xIa.jpg",
+    "description": "Bluetooth 5.3 technology, soft foams, deep bass and immersive sound quality, and built-in microphone <br/><i style=\"display:none; width:0; height:0;\"> Category: boAt Airdopes 444, boAt earbuds, true wireless earbuds, TWS earbuds, wireless earphones, boAt audio, in-ear earbuds, Bluetooth earbuds, Made in India earbuds, budget wireless earbuds, gaming earbuds, music earbuds, boAt headphones</i>"
   }
 ]

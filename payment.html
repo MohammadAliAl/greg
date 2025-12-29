@@ -663,7 +663,7 @@ section .grid > div p {
           (sum, item) => sum + item.price * (item.quantity || 1),
           0
         );
-        totalAmount = totalAmount+200;
+        totalAmount = totalAmount;
         document.getElementById(
           "total-amount"
         ).textContent = `₹${totalAmount.toFixed(2)}`;

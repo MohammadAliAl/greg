@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Render order items
-  let subtotal = 200;
+  let subtotal = 0;
   orderItemsContainer.innerHTML = "";
 
   cart.forEach((item) => {
